@@ -2,6 +2,9 @@ import React from 'react'
 import {motion} from 'framer-motion';
 import {styles} from "../styles";
 import { ComputersCanvas } from './canvas';
+import { BallCanvas } from "./canvas"
+import { SectionWrapper } from "../hoc"
+
 
 const Hero = () => {
   return (
@@ -16,6 +19,7 @@ const Hero = () => {
         <div>
           <h2 className={`${styles.heroHeadText}`}> Hi, I'm Ayush Shresth</h2>
           <p className={styles.sectionSubText}> write a description</p>
+              
         </div>
       </div>
       <ComputersCanvas />
@@ -42,4 +46,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default SectionWrapper(Hero, "")
