@@ -116,50 +116,11 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Software Engineering Research Intern",
+      company_name: "Indian Institute of Technology",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "May 2022 - August 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,67 +159,152 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Phishing Project",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "I built a web application that utilizes machine learning to unveil hidden phishing tactics in URLs and emails with impressive accuracy (96% for URLs and 99% for emails). My tool scrapes data to empower the model.",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Machine Learning",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "BeautifulSoap",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ayushshresth021/Phishing_project",
     },
     {
-      name: "Job IT",
+      name: "Suite Spot Hotel Management Web-app",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "I led a team of 10 developers, using Agile Scrum practices, to craft a hotel management system featuring a dynamic search engine with filtering capabilities for location, price, and amenities. We deployed the application on Microsoft Azure Web Apps for seamless accessibility and optimal performance.",
       tags: [
         {
-          name: "react",
+          name: "React.js",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "MongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Node.js",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ayushshresth021/Suite-Spot",
     },
     {
-      name: "Trip Guide",
+      name: "Etsy Prototype",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "I built a fully functional Etsy-inspired web prototype using the MERN stack, complete with features like adding items to carts, managing wishlists, and checking out. To ensure a seamless user experience, I optimized data fetching with GraphQL, resulting in faster page load times.",
       tags: [
         {
-          name: "nextjs",
+          name: "React.js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Graph QL",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Redux",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ayushshresth021/Etsy-Clone",
+    },
+
+    {
+      name: "Stack Overflow Prototype",
+      description:
+      "I developed a Stack Overflow simulation that mirrors its dynamic Q&A experience, allowing users to upvote/downvote answers, earn badges, and engage in threaded discussions. To ensure users find the knowledge they need, I implemented a powerful search API with multi-criteria filtering. Apache Kafka enables seamless real-time updates",
+      tags: [
+        {
+          name: "Node.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React.js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/ayushshresth021/StackOverflow-Clone",
+    },
+    {
+      name: "AutoGo Car Rental Web-app",
+      description:
+      " I developed a car rental website to handle reservations, interactive maps, and payment processing. Through thorough requirements gathering and analysis, I ensured the inclusion of key features like a rewarding loyalty system, automated invoice emailing, user feedback forms, and dynamic filtering options for a tailored user experience.",
+      tags: [
+        {
+          name: "MySQL",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PHP",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/ayushshresth021/AutoGO-Project",
+    },
+    {
+      name: "Path Finding Visualizer",
+      description:
+      "I developed an application that visually guides users through the shortest path on a 50x50 grid. To achieve this, I leveraged graph and minHeap data structures to implement Dijkstra's algorithm, and employed a modified version of Kruskal's algorithm to generate engaging mazes within the graph.",
+      tags: [
+        {
+          name: "Pygame",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "TKinter",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/ayushshresth021/Path-Finding-Visualizer",
+    },
+    {
+      name: "Soccer Monk",
+      description:
+      "I built an interactive web application that uncovers insights within soccer player statistics, generating informative inter-correlation heat maps. To achieve this, I meticulously filtered and organized raw data from over 18,000 players, enabling the discovery of optimal positions and player combinations.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Seaborn",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Pandas",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/ayushshresth021/Soccer-Monk",
     },
   ];
   

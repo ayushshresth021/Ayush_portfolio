@@ -5,7 +5,7 @@ import { ComputersCanvas } from './canvas';
 import { BallCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc"
 
-
+const ayush_resume = "http://localhost:5173/Ayush_Resume_Fall23__Updated_.pdf"
 const Hero = () => {
   return (
     <section className='relative w-full h-screen mx-auto'>
@@ -18,8 +18,10 @@ const Hero = () => {
         </div>
         <div>
           <h2 className={`${styles.heroHeadText}`}> Hi, I'm Ayush Shresth</h2>
-          <p className={styles.sectionSubText}> write a description</p>
-              
+          <p className={styles.sectionSubText}> write a desc</p>    
+        </div>
+        <div>
+          <button onClick={() => {downloadResume(ayush_resume)}}></button>
         </div>
       </div>
       <ComputersCanvas />
