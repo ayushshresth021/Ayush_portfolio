@@ -5,7 +5,7 @@ import { ComputersCanvas } from './canvas';
 import { BallCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc"
 
-const ayush_resume = "http://localhost:5173/Ayush_Resume_Fall23__Updated_.pdf"
+
 const Hero = () => {
   return (
     <section className='relative w-full h-screen mx-auto'>
@@ -18,13 +18,24 @@ const Hero = () => {
         </div>
         <div>
           <h2 className={`${styles.heroHeadText}`}> Hi, I'm Ayush Shresth</h2>
-          <p className={styles.sectionSubText}> write a desc</p>    
-        </div>
-        <div>
-          <button onClick={() => {downloadResume(ayush_resume)}}></button>
-        </div>
+          <p className={styles.heroSubText} > Bachelors in Software Engineering</p>    
+          <p className={styles.heroSubText} style={{ color: '#fca311' }}> San Jose State University, California
+          <img src="src/assets/san-jose-state-spartans6426-removebg-preview.png" alt="Image description" style={{ display: 'inline-block', height:'70px', width:'90px'}}/>
+          </p>  
+          <p className={styles.sectionSubText} >A dedicated Software Engineering student with hands-on experience in web development, machine learning, and software projects. Skilled in data structures, algorithms, and leveraging diverse technologies to create efficient solutions. I am active in leadership roles, club participation, and community initiatives.
+          </p> 
+          <div
+            className=" w-[120px] h-[55px] z-10 flex absolute rounded-full bg-[#00377e] items-center p-6"
+            onClick="window.location.href='https://drive.google.com/file/d/1EcQDox89wBApNB7Xs7SywVOBzBTgX0Md/view?usp=sharing'"
+          >
+            Resume
+          </div>
+        </div >
+
       </div>
+      
       <ComputersCanvas />
+      
 
       {/** scroll button */}
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
@@ -42,6 +53,7 @@ const Hero = () => {
               className="w-3 h-3 rounded-full bg-[#ced4da] mb-1"
             />
           </div>
+          
         </a>    
       </div>
     </section>
