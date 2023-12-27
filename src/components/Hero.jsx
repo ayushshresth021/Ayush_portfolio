@@ -24,12 +24,15 @@ const Hero = () => {
           </p>  
           <p className={styles.sectionSubText} >A dedicated Software Engineering student with hands-on experience in web development, machine learning, and software projects. Skilled in data structures, algorithms, and leveraging diverse technologies to create efficient solutions. I am active in leadership roles, club participation, and community initiatives.
           </p> 
-          <div
+          <a 
             className=" w-[120px] h-[55px] z-10 flex absolute rounded-full bg-[#00377e] items-center p-6"
-            onClick="window.location.href='https://drive.google.com/file/d/1EcQDox89wBApNB7Xs7SywVOBzBTgX0Md/view?usp=sharing'"
-          >
+            href='https://drive.google.com/file/d/1EcQDox89wBApNB7Xs7SywVOBzBTgX0Md/view?usp=sharing'
+            target="_blank" rel="noreferrer"
+            >
             Resume
-          </div>
+          </a>
+          
+
         </div >
 
       </div>

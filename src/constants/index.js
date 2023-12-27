@@ -23,6 +23,16 @@ import {
     jobit,
     tripguide,
     threejs,
+    iit,
+    phishing,
+    suitespot,
+    etsy,
+    stackover,
+    autogo,
+    pathfinder,
+    soccer,
+    javalogo,
+    pythonLogo
   } from "../assets";
   
   export const navLinks = [
@@ -59,7 +69,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Stduent",
       icon: creator,
     },
   ];
@@ -78,9 +88,14 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Java",
+      icon: javalogo,
     },
+    {
+      name: "Python",
+      icon: pythonLogo,
+    },
+
     {
       name: "React JS",
       icon: reactjs,
@@ -122,15 +137,15 @@ import {
   const experiences = [
     {
       title: "Software Engineering Research Intern",
-      company_name: "Indian Institute of Technology",
-      icon: starbucks,
+      company_name: "Indian Institute of Technology, Patna",
+      icon: iit,
       iconBg: "#383E56",
       date: "May 2022 - August 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conceptualized and implemented a web application with an interactive map, showcasing optimal routes and charging stations for EVs.",
+        "Optimized route planning algorithms to achieve 80% efficiency, minimizing travel time and energy consumption.",
+        "Collected and analyzed data from over 40 EV charging stations in Bihar, India, to inform route optimization and infrastructure planning.",
+        "Demonstrated proficiency in diverse technologies, including Dash-Plotly, GeoPy, Node.js, OSMNX, Python3, PyXLL, and React.js",
       ],
     },
   ];
@@ -181,7 +196,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: phishing,
       source_code_link: "https://github.com/ayushshresth021/Phishing_project",
     },
     {
@@ -202,7 +217,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: suitespot,
       source_code_link: "https://github.com/ayushshresth021/Suite-Spot",
     },
     {
@@ -223,7 +238,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: etsy,
       source_code_link: "https://github.com/ayushshresth021/Etsy-Clone",
     },
 
@@ -245,7 +260,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: stackover,
       source_code_link: "https://github.com/ayushshresth021/StackOverflow-Clone",
     },
     {
@@ -266,7 +281,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: autogo,
       source_code_link: "https://github.com/ayushshresth021/AutoGO-Project",
     },
     {
@@ -287,7 +302,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: pathfinder,
       source_code_link: "https://github.com/ayushshresth021/Path-Finding-Visualizer",
     },
     {
@@ -308,7 +323,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: soccer,
       source_code_link: "https://github.com/ayushshresth021/Soccer-Monk",
     },
   ];

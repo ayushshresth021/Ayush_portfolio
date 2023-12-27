@@ -33,6 +33,11 @@ const Contact = () => {
             <span>Phone</span>
           </a>
         </li>
+        <li>
+          <a href="https://github.com/ayushshresth021" target="_blank" rel="noreferrer" className="block py-2 px-4 rounded-lg bg-[#00377e] text-white hover:bg-[#6c757d] transition-colors duration-300">
+            <span>Github</span>
+          </a>
+        </li>
       </ul>
 
       </motion.div>
