@@ -69,7 +69,7 @@ import {
       icon: backend,
     },
     {
-      title: "Stduent",
+      title: "Student",
       icon: creator,
     },
   ];

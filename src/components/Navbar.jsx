@@ -57,7 +57,7 @@ const Navbar = () => {
                     className={`${
                       active === link.title
                       ? "text-white"
-                      : "text-secondary"
+                      : "text-white"
                     }
                       font-poppins font-medium 
                       cursor-pointer text-[16px]
